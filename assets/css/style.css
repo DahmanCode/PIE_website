@@ -895,7 +895,7 @@ body {
 }
 
 .footer-link:is(:hover, :focus) {
-  color: var(--kappel);
+  color: var(--radical-red);
 }
 
 .footer-list-title {
@@ -945,7 +945,7 @@ body {
 }
 
 .copyright-link {
-  color: var(--kappel);
+  color: var(--white);
   display: inline-block;
 }
 

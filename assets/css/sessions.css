@@ -1,0 +1,28 @@
+.hero-banner {
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+@media (min-width: 768px) {
+    .hero-banner .img-holder.two {
+        margin-block-start: 0;
+    }
+}
+
+@media (min-width: 575px) {
+    .hero-banner {
+        grid-template-columns: 1fr;
+    }
+}
+
+.about-content-boxs {
+    display: flex;
+    /* flex: 0 0 auto; */
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.section-title.last {
+    color: var(--selective-yellow);
+}
